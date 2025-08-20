@@ -1,0 +1,20 @@
+app:
+  code: N8N
+  name: N8N
+  notify: skchekon@ecloudcontrol.com
+  
+build:
+  build_file: none
+  env: DEV
+  image_template: n8n-1.10
+  version: 1.10
+  
+deploy:
+  context: skchekon/DEV
+  port:
+  - 80
+  replicas: 1
+  
+properties:
+  revision: 1
+  
