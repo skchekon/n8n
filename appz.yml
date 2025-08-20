@@ -16,5 +16,7 @@ deploy:
   replicas: 1
   
 properties:
-  revision: 1
+  N8N_RUNNERS_ENABLED: true
+  N8N_USER_FOLDER: /appz/data
+  revision: 2
   
