@@ -18,5 +18,5 @@ deploy:
 properties:
   N8N_RUNNERS_ENABLED: true
   N8N_USER_FOLDER: /appz/data
-  revision: 2
+  revision: 3
   
