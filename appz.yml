@@ -6,6 +6,7 @@ app:
 build:
   build_file: none
   env: DEV
+  output_files: output/*.zip
   image_template: n8n-1.10
   version: 1.10
   
@@ -18,5 +19,5 @@ deploy:
 properties:
   N8N_RUNNERS_ENABLED: true
   N8N_USER_FOLDER: /appz/data
-  revision: 6
+  revision: 7
   
