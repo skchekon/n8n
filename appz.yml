@@ -20,6 +20,6 @@ properties:
   N8N_RUNNERS_ENABLED: true
   N8N_USER_FOLDER: /appz/data
   N8N_HOST: skchekon-dev-n8n-1-10.lowtouchcloud.io
-  #N8N_PORT: 5678
-  revision: 9
+  WEBHOOK_URL: https://skchekon-dev-n8n-1-10.lowtouchcloud.io/
+  revision: 10
   
