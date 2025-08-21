@@ -19,5 +19,6 @@ deploy:
 properties:
   N8N_RUNNERS_ENABLED: true
   N8N_USER_FOLDER: /appz/data
-  revision: 7
+  N8N_HOST: skchekon-dev-n8n-1-10.lowtouchcloud.io
+  revision: 8
   
